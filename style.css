@@ -91,8 +91,8 @@ body {
   border-color: #189582 ;
 }*/
 .jumbotron {
-  margin-bottom: 0;
-  padding: 3rem 0 3.5rem;
+  margin-bottom: 1rem;
+  padding: 3.5rem 0;
   border-radius: 0;
   background-color: #FBFBFD;
 }
@@ -100,12 +100,13 @@ h3.heading {
   font-size: 1.9rem;
   font-weight: 700;
   margin-bottom: 1.9rem;
+  color: #1D1D1F;
 }
 .heading-underline {
   width: 3rem;
   height: .2rem;
   background-color: #2997ff; /* color accent */
-  margin: 0 auto 1rem;
+  margin: 0 auto;
 }
 .about img {
   width: 100%;
