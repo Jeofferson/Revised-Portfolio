@@ -97,14 +97,12 @@ body {
 }*/
 .jumbotron {
   margin-bottom: 1rem;
-  padding: 3.5rem 0;
   border-radius: 0;
   background-color: #FBFBFD;
 }
-h3.heading {
-  font-size: 1.9rem;
+h2.heading {
   font-weight: 700;
-  margin-bottom: 1.9rem;
+  margin-bottom: 2rem;
   color: #1D1D1F;
 }
 .heading-underline {
@@ -120,6 +118,40 @@ h3.heading {
 .about p {
   padding-left: 2rem;
   font-size: 1.2rem;
+}
+
+/*--- Projects --*/
+h2.heading2 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #1D1D1F;
+}
+h4.subheading {
+  margin-bottom: 2rem;
+}
+.heading-underline2 {
+  width: 3rem;
+  height: .2rem;
+  background-color: #2997ff; /* color accent */
+  margin: 0 auto;
+}
+.projects {
+  margin: 1rem 0;
+  padding: 0 0.2rem;
+}
+.project {
+  padding: 2rem 0.4rem;
+}
+.projects img {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.project-description {
+  padding: 0 5rem;
+}
+.project-description h4 {
+  font-weight: 700;
+  color: #1D1D1F;
 }
 
 /*--- Border --*/
