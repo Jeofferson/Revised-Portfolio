@@ -3,7 +3,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Nunito Sans', sans-serif;
-  color: #505962;
+  color: #86868b;
 }
 .offset:before {
   display: block;
@@ -14,7 +14,8 @@ body {
 
 /*--- Navigation --*/
 .navbar {
-  background: rgba(0, 0, 0, 0.75)!important;
+  background: rgba(0, 0, 0, 0.8)!important;
+  backdrop-filter: saturate(180%) blur(20px);
 }
 .navbar-brand img {
   height: 1.5rem;
@@ -24,9 +25,6 @@ body {
 }
 .navbar-nav li {
   padding-right: 3rem;
-}
-.navbar-dark .navbar-nav .nav-link {
-  color: #AAAAAA;
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -41,12 +39,12 @@ body {
   width: 100%;
   max-width: 100%;
   position: absolute;
-  top: 38%;
+  top: 28%;
   z-index: 1;
   color: white;
 }
 .caption .title {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 .caption .title h1 {
   font-size: 3.8rem;
@@ -55,7 +53,7 @@ body {
   margin-bottom: 0;
 }
 .caption .subtitle {
-  padding-bottom: 1.6rem;
+  padding-bottom: 3.2rem;
 }
 .caption .subtitle h5 {
   font-style: 2rem;
