@@ -9,17 +9,18 @@ body {
 .offset:before {
   display: block;
   content: "";
-  margin-top: -4rem;
-  height: 4rem;
+  margin-top: -2rem;
+  height: 2rem;
 }
 
 /*--- Navigation --*/
 .navbar {
+  padding: .2rem;
   background: rgba(0, 0, 0, 0.8)!important;
   backdrop-filter: saturate(180%) blur(20px);
 }
 .navbar-brand img {
-  height: 1.5rem;
+  height: 1.2rem;
 }
 .navbar-nav {
   margin: 0 auto;
@@ -28,6 +29,7 @@ body {
   padding-right: 3rem;
 }
 .navbar-dark .navbar-nav .nav-link {
+  font-size: .9rem;
   color: #F5F5F7;
   opacity: 80%;
 }
