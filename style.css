@@ -39,10 +39,51 @@ body {
   opacity: 100%;
 }
 
-/*--- Landing Page --*/
+/*--- Common Section Styles --*/
+.jumbotron {
+  margin-bottom: 1rem;
+  border-radius: 0;
+  background-color: #FBFBFD;
+}
+h2.heading {
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #1D1D1F;
+}
+.heading-underline {
+  margin: 0 auto;
+  width: 3rem;
+  height: .2rem;
+  background-color: #2997ff; /* color accent */
+}
+.not-jumbotron {
+  margin: 3rem 0;
+}
+h2.heading2 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #1D1D1F;
+}
+h4.subheading {
+  margin-bottom: 2rem;
+}
+.heading-underline2 {
+  margin: 0 auto;
+  width: 3rem;
+  height: .2rem;
+  background-color: #2997ff; /* color accent */
+}
+.jumbotron.no-margin-bottom {
+  margin-bottom: 0;
+}
 .home-inner {
   background-image: url(images/landing_page.jpg);
 }
+.home-inner-2 {
+  background-image: url(images/quote_bg.jpg);
+}
+
+/*--- Landing Page --*/
 .caption {
   position: absolute;
   top: 28%;
@@ -98,22 +139,6 @@ body {
   background-color: #189582 ;
   border-color: #189582 ;
 }*/
-.jumbotron {
-  margin-bottom: 1rem;
-  border-radius: 0;
-  background-color: #FBFBFD;
-}
-h2.heading {
-  margin-bottom: 2rem;
-  font-weight: 700;
-  color: #1D1D1F;
-}
-.heading-underline {
-  margin: 0 auto;
-  width: 3rem;
-  height: .2rem;
-  background-color: #2997ff; /* color accent */
-}
 .about img {
   border-radius: 50%;
   width: 100%;
@@ -124,23 +149,6 @@ h2.heading {
 }
 
 /*--- Projects --*/
-.not-jumbotron {
-  margin: 3rem 0;
-}
-h2.heading2 {
-  margin-bottom: 1rem;
-  font-weight: 700;
-  color: #1D1D1F;
-}
-h4.subheading {
-  margin-bottom: 2rem;
-}
-.heading-underline2 {
-  margin: 0 auto;
-  width: 3rem;
-  height: .2rem;
-  background-color: #2997ff; /* color accent */
-}
 .projects {
   margin: 1rem 0 0;
   padding: 0 0.2rem;
@@ -172,19 +180,19 @@ h4.subheading {
 /*--- Resume --*/
 .resume {
   margin: 1rem 0 0;
-  padding: 2rem 4rem;
+  padding: 3rem;
   background: white;
 }
 .resume-category {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 .resume-category h4 {
   font-weight: 700;
   color: #1D1D1F;
 }
 .resume-item {
-  padding: 2rem 4rem;
-  background: #FBFBFD;
+  padding: 3rem;
+  box-shadow: 0 0 .1rem #00000050;
 }
 .resume-item.offset {
   margin-bottom: 1rem;
@@ -195,6 +203,9 @@ h4.subheading {
 }
 .resume-item h5 {
   margin-bottom: 1rem;
+}
+.resume-item i {
+  margin-right: .3rem;
 }
 
 /*--- Border --*/
