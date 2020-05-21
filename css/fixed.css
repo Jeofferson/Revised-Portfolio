@@ -42,7 +42,7 @@ margin-right: 0px!important;
           transform: translateZ(0);
   will-change: transform;
 }
-.home-inner-2 {
+.home-inner-fixed {
   position: fixed;
   display: table;
   top: 0;
