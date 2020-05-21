@@ -16,7 +16,7 @@ body {
 /*--- Navigation --*/
 .navbar {
   padding: .2rem;
-  background: rgba(0, 0, 0, 0.8)!important;
+  background: rgba(0, 0, 0, .8)!important;
   backdrop-filter: saturate(180%) blur(20px);
 }
 .navbar-brand img {
@@ -35,7 +35,7 @@ body {
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #F5F5F7; /* #FFA118; /* color accent */
+  color: #F5F5F7;
   opacity: 100%;
 }
 
@@ -54,7 +54,7 @@ h2.heading {
   margin: 0 auto;
   width: 3rem;
   height: .2rem;
-  background-color: #2997ff;
+  background-color: #2997ff; /* color accent */
 }
 .not-jumbotron {
   margin: 3rem 0;
@@ -195,8 +195,8 @@ h4.subheading {
   color: #1D1D1F;
 }
 .resume-item {
+  box-shadow: 0 0 .1rem rgba(0, 0, 0, .3);
   padding: 3rem;
-  box-shadow: 0 0 .1rem #00000050;
 }
 .resume-item.offset {
   margin-bottom: 1rem;
@@ -214,7 +214,30 @@ h4.subheading {
 
 /*--- Quote --*/
 .quote {
-
+  position: relative;
+}
+.screen-dark {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .5);
+}
+.quote-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.quote-text h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: .1rem .1rem .8rem black;
+}
+.quote-text h1 i {
+  position: relative;
+  right: 1rem;
+  bottom: 1rem;
 }
 
 /*--- Border --*/
