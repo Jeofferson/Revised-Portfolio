@@ -168,6 +168,35 @@ h4.subheading {
 .technology h5 {
   margin-bottom: 1rem;
 }
+
+/*--- Resume --*/
+.resume {
+  margin: 1rem 0 0;
+  padding: 2rem 4rem;
+  background: white;
+}
+.resume-category {
+  margin-top: 2rem;
+}
+.resume-category h4 {
+  font-weight: 700;
+  color: #1D1D1F;
+}
+.resume-item {
+  padding: 2rem 4rem;
+  background: #FBFBFD;
+}
+.resume-item.offset {
+  margin-bottom: 1rem;
+}
+.resume-item h4 {
+  margin-bottom: 1rem;
+  color: #1D1D1F;
+}
+.resume-item h5 {
+  margin-bottom: 1rem;
+}
+
 /*--- Border --*/
 
 
@@ -200,7 +229,6 @@ h4.subheading {
   background-color: #189582;
   color: white;
 }
-
 
 /*============ BOOTSTRAP BREAK POINTS:
 
