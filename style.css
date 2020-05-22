@@ -216,7 +216,7 @@ h4.subheading {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, 0.5);
 }
 .quote-text {
   position: absolute;
@@ -232,26 +232,30 @@ h4.subheading {
 .quote-text h1 i {
   position: relative;
   right: 1rem;
-  bottom: 1rem;
+  bottom: 1.5rem;
+  font-size: 2.3rem;
 }
 
 /* Talks */
 .talk {
-  margin-bottom: 2rem;
-  padding: 0;
-  background: #FBFBFD;
-}
-.talk .image {
+  margin-bottom: 1rem;
   padding: 0;
   height: 20rem;
 }
+.talk .image {
+  padding: 0;
+  height: 100%;
+}
 .talk img {
+  padding: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 .talk .description {
   padding: 2rem;
+  height: 100%;
+  background: #FBFBFD;
 }
 .talk h4 {
   margin-bottom: 1rem;
@@ -269,8 +273,35 @@ h4.subheading {
 }
 
 /* Competitions */
+.competition {
+  margin-bottom: 1rem;
+  padding: 0 0.4rem;
+}
+.competition .image {
+  height: 20rem;
+}
 .competition img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.competition .description {
+  padding: 2rem;
+  background: #FBFBFD;
+}
+.competition h4 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #1D1D1F;
+}
+.competition h6 {
+  margin-bottom: 1rem;
+}
+.competition i {
+  margin-right: .5rem;
+}
+.competition p {
+  font-size: 1.2rem;
 }
 
 /* Border */
@@ -308,6 +339,8 @@ h4.subheading {
 
 /*============ BOOTSTRAP BREAK POINTS:
 
+
+
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
 
@@ -324,13 +357,6 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
-
-
-
-
-/* My Customizations */
-
-/* client == about */
 
 
 
