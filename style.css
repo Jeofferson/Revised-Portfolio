@@ -45,19 +45,22 @@ body {
   border-radius: 0;
   background-color: #FBFBFD;
 }
+.not-jumbotron {
+  margin: 3rem 0;
+}
+.jumbotron.no-margin-bottom {
+  margin-bottom: 0;
+}
 h2.heading {
   margin-bottom: 2rem;
   font-weight: 700;
   color: #1D1D1F;
 }
 .heading-underline {
-  margin: 0 auto;
+  margin: 0 auto 1rem;
   width: 3rem;
   height: .2rem;
   background-color: #2997ff; /* color accent */
-}
-.not-jumbotron {
-  margin: 3rem 0;
 }
 h2.heading2 {
   margin-bottom: 1rem;
@@ -67,14 +70,11 @@ h2.heading2 {
 h4.subheading {
   margin-bottom: 2rem;
 }
-.heading-underline2 {
-  margin: 0 auto;
+.heading-underline-2 {
+  margin: 0 auto 1rem;
   width: 3rem;
   height: .2rem;
   background-color: #2997ff;
-}
-.jumbotron.no-margin-bottom {
-  margin-bottom: 0;
 }
 .home-inner {
   background-image: url(images/landing_page.jpg);
@@ -150,7 +150,6 @@ h4.subheading {
 
 /*--- Projects --*/
 .projects {
-  margin-top: 1rem;
   padding: 1rem 0.4rem;
 }
 .project {
@@ -166,9 +165,6 @@ h4.subheading {
 }
 
 /*--- Technologies --*/
-.technologies {
-  margin-top: 2rem;
-}
 .technology i {
   margin-bottom: 1rem;
   color: #1D1D1F;
@@ -183,7 +179,6 @@ h4.subheading {
 
 /*--- Resume --*/
 .resume {
-  margin-top: 1rem;
   padding: 3rem;
   background: white;
 }
@@ -241,9 +236,6 @@ h4.subheading {
 }
 
 /*--- Talks --*/
-.talks {
-  margin-top: 2rem;
-}
 .talk {
   margin-bottom: 2rem;
   padding: 0;
