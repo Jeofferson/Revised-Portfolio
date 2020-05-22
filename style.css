@@ -252,6 +252,12 @@ h4.subheading {
   height: 100%;
   object-fit: cover;
 }
+.talk .contain {
+  background: black;
+}
+.talk .contain img {
+  object-fit: contain;
+}
 .talk .description {
   padding: 2rem;
   height: 100%;
