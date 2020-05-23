@@ -145,6 +145,13 @@ h4.subheading {
   font-weight: 700;
   color: #1D1D1F;
 }
+.project h4 i {
+  margin-left: 1rem;
+  color: #1D1D1F;
+}
+.project h4 i:hover {
+  color: #2997ff;
+}
 
 /* Technologies */
 .technology i {
