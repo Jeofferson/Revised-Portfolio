@@ -146,11 +146,11 @@ h4.subheading {
   color: #1D1D1F;
 }
 .project h4 i {
-  margin-left: 1rem;
-  color: #1D1D1F;
-}
-.project h4 i:hover {
+  margin-right: .5rem;
   color: #2997ff;
+}
+.project .date i {
+  margin-right: .5rem;
 }
 
 /* Technologies */
