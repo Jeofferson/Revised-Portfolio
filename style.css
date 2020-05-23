@@ -154,7 +154,7 @@ h4.subheading {
 .technology h5 {
   margin-bottom: 1rem;
 }
-.technology-title {
+.technology h5.technology-title {
   font-weight: 700;
   color: #1D1D1F;
 }
@@ -168,7 +168,7 @@ h4.subheading {
   margin-top: 3rem;
 }
 .resume-category h4 {
-  font-weight: 700;
+  font-weight: 400;
   color: #1D1D1F;
 }
 .resume-item {
@@ -178,15 +178,20 @@ h4.subheading {
 .resume-item.offset {
   margin-bottom: 1rem;
 }
-.resume-item h4 {
+.resume-item .date {
   margin-bottom: 1rem;
-  color: #1D1D1F;
-}
-.resume-item h5 {
-  margin-bottom: 1rem;
+  font-weight: 300;
 }
 .resume-item .date i {
   margin-right: .5rem;
+}
+.resume-item h4 {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  color: #1D1D1F;
+}
+.resume-item h5 {
+  font-weight: 300;
 }
 
 /* Quote */
