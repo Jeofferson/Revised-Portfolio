@@ -326,8 +326,23 @@ h4.subheading {
 }
 
 /* Footer */
-.footer.jumbotron {
+#footer .jumbotron {
   background: #F5F5F7;
+}
+.footer h5 {
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+.footer h5.contact-platform-title {
+  font-weight: 400;
+  color: #1D1D1F;
+}
+.footer a h5 {
+  color: #86868B;
+}
+.footer a h5:hover {
+  text-decoration: underline;
+  color: #1D1D1F;
 }
 
 /* Border */
