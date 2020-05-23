@@ -45,7 +45,7 @@ body {
   background-color: #FBFBFD;
 }
 .not-jumbotron {
-  margin: 3rem 0;
+  padding: 3rem 0;
 }
 .jumbotron.no-margin-bottom {
   margin-bottom: 0;
@@ -120,28 +120,6 @@ h4.subheading {
 }
 
 /* About */
-/*.narrow {
-  width: 75%;
-  margin: 1.5rem auto;
-  padding-top: 2rem;
-}*/
-/*.narrow h1 {
-  font-size: 2.4rem;
-}*/
-/*.btn-secondary {
-  border-width: medium;
-  border-radius: 0;
-  font-size: 1.2rem;
-  padding: .6rem 1.2rem;
-  margin: 1rem;
-  color: white;
-  background-color: #1EBBA3;
-  border-color: #1EBBA3;
-}
-.btn-secondary:hover {
-  background-color: #189582 ;
-  border-color: #189582 ;
-}*/
 .about .image img {
   border-radius: 50%;
   width: 100%;
@@ -207,7 +185,7 @@ h4.subheading {
 .resume-item h5 {
   margin-bottom: 1rem;
 }
-.resume-item i {
+.resume-item .date i {
   margin-right: .5rem;
 }
 
@@ -256,25 +234,25 @@ h4.subheading {
   height: 100%;
   object-fit: cover;
 }
-.talk .description {
+.talk .details {
   padding: 2rem;
   height: 100%;
   background: #FBFBFD;
-  font-weight: 300;
 }
 .talk h4 {
   margin-bottom: 1rem;
   font-weight: 700;
   color: #1D1D1F;
 }
-.talk h6 {
+.talk .date {
   margin-bottom: 1rem;
 }
-.talk i {
+.talk .date i {
   margin-right: .5rem;
 }
-.talk p {
+.talk .description {
   font-size: 1.2rem;
+  font-weight: 300;
 }
 
 /* Competitions */
@@ -290,24 +268,24 @@ h4.subheading {
   height: 100%;
   object-fit: cover;
 }
-.competition .description {
+.competition .details {
   padding: 2rem;
   background: #FBFBFD;
-  font-weight: 300;
 }
 .competition h4 {
   margin-bottom: 1rem;
   font-weight: 700;
   color: #1D1D1F;
 }
-.competition h6 {
+.competition .date {
   margin-bottom: 1rem;
 }
-.competition i {
+.competition .date i {
   margin-right: .5rem;
 }
-.competition p {
+.competition .description {
   font-size: 1.2rem;
+  font-weight: 300;
 }
 
 /* Awards */
@@ -323,10 +301,9 @@ h4.subheading {
   height: 100%;
   object-fit: cover;
 }
-.award .description {
+.award .details {
   padding: 1.3rem;
   background: #FBFBFD;
-  font-weight: 300;
 }
 .award h5 {
   margin-bottom: .6rem;
@@ -336,8 +313,16 @@ h4.subheading {
 .award .date {
   margin-bottom: .6rem;
 }
-.award i {
+.award .date i {
   margin-right: .5rem;
+}
+.award .description {
+  font-weight: 300;
+}
+
+/* Footer */
+.footer.jumbotron {
+  background: #F5F5F7;
 }
 
 /* Border */
